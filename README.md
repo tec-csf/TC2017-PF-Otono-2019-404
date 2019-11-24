@@ -1,4 +1,4 @@
-# *[Poner aquí el Título del Proyecto]*
+# *SUDOKU CON OPEN MP*
 ---
 #### Materia: *Análisis y Diseño de Algoritmos (TC2017)*
 
@@ -8,7 +8,7 @@
 
 ##### Integrantes:
 1. *[Poner aquí Nombre y Apellidos del integrante 1]* *[Matrícula]*
-2. *[Poner aquí Nombre y Apellidos del integrante 2]* *[Matrícula]*
+2. *ALLAN SÁNCHEZ IPARRAZAR* *A01379951*
 
 ---
 ## 1. Aspectos generales
