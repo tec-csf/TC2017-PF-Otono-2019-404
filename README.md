@@ -50,17 +50,6 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 *“Sudoku (en japonés: 数独, sūdoku) es un juego matemático que se inventó a finales de la década de 1970, adquirió popularidad en Japón en la década de 1980 y se dio a conocer en el ámbito internacional en 2005 cuando numerosos periódicos empezaron a publicarlo en su sección de pasatiempos.El objetivo del sudoku es rellenar una cuadrícula de 9 × 9 celdas (81 casillas) dividida en subcuadrículas de 3 × 3 (también llamadas "cajas" o "regiones") con las cifras del 1 al 9 partiendo de algunos números ya dispuestos en algunas de las celdas. Aunque se podrían usar colores, letras, figuras, se conviene en usar números para mayor claridad, lo que importa, es que sean nueve elementos diferenciados, que no se deben repetir en una misma fila, columna o subcuadrícula. Un sudoku está bien planteado si la solución es única, algo que el matemático Gary McGuire ha demostrado que no es posible si no hay un mínimo de 17 cifras de pista al principio” (Wikipedia, 2019) 
 *
  
-/******agregar esto?******/
- 
-Sudoku es un juego de un solo jugador donde se tienen n x n celdas y algunas de ellas están llenadas con un número del 1 a n. Para ganar, se tienen que llenar las celdas que están vacías siguiendo ciertas reglas:
- 
-1. Cada número debe aparecer una sola vez por renglón
-2. Cada número debe aparecer una sola vez por columna
-3. Cada número debe aparecer una sola vez por *subgrid*
-   - Por subgrid se puede pensar como un sudoku individual (debe de seguir las mismas reglas) pero de menor tamaño. Por ejemplo, en un Sudoko de 9x9, existen subgirds de 3x3
- 
-/****************************/
- 
 ## 3. Solución secuencial
  
 La manera de resolver el sudoku de manera secuencial es analizando y reconociendo todas las diferentes posibilidades y, a partir de los patrones encontrados, determinar la solución.
