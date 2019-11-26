@@ -134,7 +134,34 @@ Para poder comparar correctamente ambos algoritmos, se utilzaron 5 diferentes su
  
 ## 7. Gráfica(s) comparativa(s)
  
-![Tiempos de Ejecución S vs P](/docs/SecuencialVSParalelo1.png)
+![Tiempos de Ejecución S vs P](/docs/SecuencialVSParalelo.png)
+ 
+![VisualSudoku](/docs/NumberOfThreads.png)
+ 
+*Cambiaando opciones de balanceo*
+ 
+![VisualSudoku](/docs/BalancingOptions.png)
+ 
+*Auto*
+ 
+![VisualSudoku](/docs/Auto.png)
+ 
+*Guided*
+ 
+![VisualSudoku](/docs/Guided.png)
+ 
+*Static*
+ 
+![VisualSudoku](/docs/Static.png)
+ 
+*Dynamic*
+ 
+![VisualSudoku](/docs/Dynamic.png)
+ 
+*Average*
+ 
+![VisualSudoku](/docs/Average.png)
+ 
  
 ## 8. Interpretación de los resultados
  
