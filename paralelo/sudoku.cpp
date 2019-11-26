@@ -229,7 +229,8 @@ int main() {
   Sudoku::initialize();
   
   t_final = omp_get_wtime();
-  printf("Inicializacion tardo: %.5f\n", t_final - t_inicial);
+  double final_time = (double)(t_final - t_inicial)/(double)(CLOCKS_PER_SEC);
+  cout <<"\nTime taken by program is: " << final_time << " seconds \n";
  
   string s, line;
   while(getline(cin, line)) s += line;
